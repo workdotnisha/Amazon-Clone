@@ -1,48 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
     border: border-box;
     /* background-color: black; */
 }
-.navbar{
+
+.navbar {
     /* width: 100%; */
     height: 99px;
     color: #ffffff;
-    background-color: #0F1111;
+    background-color: #131921;
     justify-content: space-evenly;
     /* display: flex; */
-    
+
 }
-.nav-top{
+
+.nav-top {
     display: flex;
     align-items: center;
 }
-.nav-right{
+
+.nav-right-tools {
     display: flex;
+    align-items: last baseline;
     width: 344.84px;
     height: 55px;
     padding: 3px 0 0 0;
     margin: 2px 0 0 0;
     /* align-items: center; */
 }
-.nav-left{
+.nav-right{
+    width: 344.84px;
+    height: 60px;
+}
+
+.nav-left {
     height: 60px;
     display: flex;
     align-items: center;
-    
+
 }
-.nav-bottom{
-    height:39px;
+
+.nav-bottom {
+    height: 39px;
     background-color: #232f3e;
 }
-.nav-logo{
+
+.nav-logo {
     /* background-color: white;; */
-    height: 50px;
-    width: 113px;
-    margin: 0 0 0 15px;
+    height: 49px;
+    width: 99px;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 8px 0 6px;
 }
-.nav-search{
+
+.nav-global-add {
+    width: 90.64px;
+    height: 60px;
+}
+
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -50,47 +69,62 @@
     height: 40px;
     margin: 0 10px;
     padding: 10px 4px 10px 3px;
-    
+
 }
-.nav-search .search-select{
+
+.nav-search .search-select {
     height: 40px;
     width: 46.33px;
     padding: 0 0 0 5px;
     background-color: #E6E6E6;
-    border: none;;
-    border-radius:5px 0 0 5px;
+    border: none;
+    ;
+    border-radius: 5px 0 0 5px;
     text-align: center;
     /* z-index: 1; */
 }
-.nav-search .search-input{
+
+.nav-search .search-input {
     height: 22px;
     width: 584.19px;
     padding: 7px 10px 10px 0;
     border: none;
-    
+
 }
 
-.search-icon{
+i.fa-solid.fa-location-dot {
+    width: 15px;
+    height: 18px;
+    margin: 19px 0 0 0;
+}
+
+.search-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-    border-radius:0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
     width: 45px;
-    background-color:#FEBD69;
+    background-color: #FEBD69;
     color: #0F1111;
     font-size: 1.2rem;
 }
-.flag-icon{
-    height:45px ;
+
+.flag-icon {
+    height: 45px;
     width: 55.38px;
     display: flex;
-    align-items: center;
+    align-items: last baseline;
     margin: 0 0 0 1px;
     padding: 0 9px 5px 9px;
 }
-.flag-icon .select-lan{
-    background-color: #0F1111;
+kkk{
+    width: 55.37px;
+    height: 33px;
+}
+
+.flag-icon .select-lan {
+    background-color:#131921;
     color: #ffffff;
     border: none;
     width: 40.38px;
@@ -98,26 +132,29 @@
     font-weight: bold;
 }
 
-.flag-icon img{
+.flag-icon img {
     width: 24px;
     height: 18px;
     margin: 0 2px 1px 0;
 }
-.sign-in{
-    align-items: center;
-    justify-content: center;
+
+.sign-in {
+    /* align-items:normal;
+    justify-content: center; */
     /* text-align: center; */
     width: 113.52px;
     height: 40px;
-    padding:0 9px 10px 9px;
+    padding: 0 9px 10px 9px;
 }
-.sign-in span{
+
+.sign-in span {
     width: 70.41px;
     height: 14px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
-.sign-in .select-list{
-    background-color: #0F1111;
+
+.sign-in .select-list {
+    background-color: #131921;
     color: #ffffff;
     border: none;
     width: 113.52px;
@@ -125,28 +162,60 @@
     font-size: 0.8rem;
     font-weight: bold;
 }
-.logo{
+
+.item {
+    display: flex;
+}
+
+.logo {
     background-image: url("images/amazon_logo.png");
     background-size: cover;
-    height: 50px;
+    height: 49px;
     width: 100%;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid #ffffff;
 }
-.nav-address{
+
+.nav-address {
+    display: flex;
+    align-items:center;
+    width: 70.64px;
+    height: 50px;
     margin: 5px 2px 5px 0;
     padding: 0 9px;
 }
-.add-first{
-    color:#cccccc;
-    font-size: 1rem;
-    margin-left:15px ;
+
+.add-first {
+    color: #cccccc;
+    width: 52.64px;
+    height: 14px;
+    /* font-size: 1rem; */
+    /* margin-left:15px ; */
 }
-.add-second{
-     margin-left: 5px;
+
+.add-second {
+    width: 52.64px;
+    height: 15px;
+    padding: 0 0 1px 0;
+    font-weight: bold;
+
 }
+
 .add-icon{
     display: flex;
-    align-items: center;
+    align-items:baseline;
+    justify-content: baseline;
+}
+.orders{
+  width: 58.95px;
+  height: 40px;
+  margin: 0 9px 10px 9px;
+}
+.orders span{
+    width: 58.95px;
+    height: 14px;
+    margin: 9px 0 0 0; 
+    font-size: 0.8rem;
 }

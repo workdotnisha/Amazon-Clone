@@ -24,7 +24,7 @@
 
 .nav-right-tools {
     display: flex;
-    align-items: last baseline;
+    align-items: center;
     width: 344.84px;
     height: 55px;
     padding: 3px 0 0 0;
@@ -32,7 +32,7 @@
     /* align-items: center; */
 }
 .nav-right{
-    width: 344.84px;
+    width: 399.84px;
     height: 60px;
 }
 
@@ -118,6 +118,16 @@ i.fa-solid.fa-location-dot {
     margin: 0 0 0 1px;
     padding: 0 9px 5px 9px;
 }
+.flag-icon .flag-item{
+    width: 55.38px;
+    height: 33px;
+}
+.flag-icon .lan-tool{
+    width: 54.38px;
+    height: 19px;
+    display: flex;
+    margin: 0 0 0 1px;
+}
 kkk{
     width: 55.37px;
     height: 33px;
@@ -133,7 +143,7 @@ kkk{
 }
 
 .flag-icon img {
-    width: 24px;
+    width: 20px;
     height: 18px;
     margin: 0 2px 1px 0;
 }
@@ -148,6 +158,7 @@ kkk{
 }
 
 .sign-in span {
+    padding: 0 0 0 5px;
     width: 70.41px;
     height: 14px;
     font-size: 0.8rem;
@@ -214,8 +225,26 @@ kkk{
   margin: 0 9px 10px 9px;
 }
 .orders span{
-    width: 58.95px;
+    width: 70.95px;
     height: 14px;
     margin: 9px 0 0 0; 
     font-size: 0.8rem;
+}
+.cart{
+    display: flex;
+    width: 66px;
+    height: 39px;
+    margin: 0 10px 0 3px;
+    padding: 0 5px 11px;
+}
+.cart-item{
+    /* font-size: 39px; */
+    padding: 0 0 1px 0;
+}
+i.fa-solid.fa-cart-plus{ 
+   font-size: 26px;
+}
+.cart span{
+    width: 28px;
+    height: 15px;
 }
